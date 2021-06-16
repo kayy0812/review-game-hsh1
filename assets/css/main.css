@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -21,7 +21,8 @@ html {
 }
 
 body {
-    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Viaoda Libre', cursive;
     user-select: none;
 }
 
@@ -132,6 +133,7 @@ body {
 }
 
 .information .about {
+    line-height: 4px;
     color: #888;
 }
 
